@@ -1,0 +1,22 @@
+name: Deploy via ftp
+
+on:
+  push:
+    branches:
+      - master   # ou master, depende de qual branch você usa
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: FTP Deploy Locaweb
+        uses: locaweb/ftp-deploy@1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USER }}
+          password: ${{ secrets.PASS }}
+          localDir: "dist"           # pega os arquivos do build
+          remoteDir: "public_html"   # envia para a pasta public_html no FTP
