@@ -29,50 +29,68 @@ export const GallerySection = () => {
     },
     {
       id: 3,
-      src: "/images/fotos-lufisio-58.jpg",
-      alt: "Aula de pilates",
-      category: "pilates"
-    },
-    {
-      id: 4,
-      src: "/images/fotos-lufisio-69.jpg",
-      alt: "Aula de pilates",
-      category: "pilates"
-    },
-    {
-      id: 5,
-      src: "/images/fotos-lufisio-144.jpg",
-      alt: "Aula de pilates",
-      category: "pilates"
-    },
-    {
-      id: 6,
       src: "/images/massagem1.jpg",
       alt: "Sessão de massagem relaxante",
       category: "massagens"
     },
     {
-      id: 7,
+      id: 4,
       src: "/images/massagem2.jpg",
       alt: "Sessão de massagem relaxante",
       category: "massagens"
     },
     {
       id: 8,
-      src: "/images/fotos-lufisio2-5.jpg",
-      alt: "Instalações modernas",
-      category: "instalacoes"
+      src: "/images/Pilates1_1.jpg",
+      alt: "Pilates",
+      category: "pilates"
     },
     {
       id: 9,
-      src: "/images/fotos-lufisio2-11.jpg",
-      alt: "Instalações modernas",
-      category: "instalacoes"
+      src: "/images/Pilates1_3.jpg",
+      alt: "Pilates",
+      category: "pilates"
     },
     {
       id: 10,
-      src: "/images/fotos-lufisio2-4.jpg",
-      alt: "Instalações modernas",
+      src: "/images/Pilates2_1.jpg",
+      alt: "Pilates",
+      category: "pilates"
+    },
+    {
+      id: 11,
+      src: "/images/SalaAzul2.jpg",
+      alt: "Pilates",
+      category: "pilates"
+    },
+    {
+      id: 12,
+      src: "/images/SalaVerde3.jpg",
+      alt: "Pilates",
+      category: "pilates"
+    },
+    {
+      id: 13,
+      src: "/images/SalaVerde7.jpg",
+      alt: "Pilates",
+      category: "pilates"
+    },
+    {
+      id: 14,
+      src: "/images/Recepcao4.jpg",
+      alt: "Sala de Espera",
+      category: "instalacoes"
+    },
+    {
+      id: 15,
+      src: "/images/Recepcao8.jpg",
+      alt: "Recepção",
+      category: "instalacoes"
+    },
+    {
+      id: 16,
+      src: "/images/Recepcao15.jpg",
+      alt: "Recepção",
       category: "instalacoes"
     }
   ];

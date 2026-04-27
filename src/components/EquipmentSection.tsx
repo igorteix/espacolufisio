@@ -80,11 +80,11 @@ export const EquipmentSection = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative aspect-[16/9]">
             <img
-              src="/images/fotos-lufisio2-10.jpg"
+              src="/images/Pilates1_1.jpg"
               alt="Equipamentos modernos do Espaço Lufisio"
-              className="rounded-2xl shadow-primary w-full"
+              className="rounded-2xl shadow-primary w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-hero opacity-10 rounded-2xl"></div>
           </div>

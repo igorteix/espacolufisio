@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
+import EsteticaTeaserSection from "@/components/EsteticaTeaserSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { GallerySection } from "@/components/GallerySection";
 import { TeamSection } from "@/components/TeamSection";
@@ -36,6 +37,7 @@ const Index = () => {
       <Header onNavigate={scrollToSection} />
       <main>
         <HeroSection />
+        <EsteticaTeaserSection />
         <ServicesSection />
         <AboutSection />
         <TeamSection />
