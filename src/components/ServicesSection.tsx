@@ -113,7 +113,7 @@ export const ServicesSection = () => {
                   variant="outline" 
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group-hover:shadow-primary transition-all duration-300"
                 >
-                  <Phone className="mr-2 h-4 w-4" />
+                  <FaWhatsapp className="mr-2 h-4 w-4" />
                   Saiba Mais
                 </Button>
               </CardContent>
@@ -159,7 +159,7 @@ export const ServicesSection = () => {
                   size="sm"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group-hover:shadow-primary transition-all duration-300"
                 >
-                  <Phone className="mr-2 h-3 w-3" />
+                  <FaWhatsapp className="mr-2 h-3 w-3" />
                   Saiba Mais
                 </Button>
               </CardContent>

@@ -58,19 +58,12 @@ export const Header = ({ onNavigate }: HeaderProps) => {
 
         <div className="flex items-center space-x-4">
           <Button 
-                      onClick={openWhatsApp}
-                      className="w-full flex items-center justify-center gap-3 
-                                  bg-gradient-secondary 
-                                  text-white font-medium
-                                  py-6 rounded-xl
-                                  hover:opacity-90 transition-all duration-300"
-                      >
-                      <div className="bg-[#25D366] p-2 rounded-full flex items-center justify-center">
-                          <FaWhatsapp className="text-white text-lg" />
-                      </div>
-          
-                      Whatsapp
-                      </Button>
+            onClick={openWhatsApp}
+            className="hidden md:flex items-center gap-2 bg-gradient-secondary hover:shadow-gold transition-all duration-300 shadow-sm"
+          >
+            <FaWhatsapp className="h-4 w-4" />
+            WhatsApp
+          </Button>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -108,7 +101,7 @@ export const Header = ({ onNavigate }: HeaderProps) => {
                     className="w-full bg-gradient-secondary hover:shadow-gold transition-all duration-300"
                     size="lg"
                   >
-                    <Phone className="mr-2 h-5 w-5" />
+                    <FaWhatsapp className="mr-2 h-5 w-5" />
                     Marque sua aula experimental
                   </Button>
                 </div>

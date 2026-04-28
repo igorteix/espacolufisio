@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Navigation, Phone, Instagram, Facebook } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const LocationSection = () => {
   const openWaze = () => {
@@ -104,7 +105,7 @@ export const LocationSection = () => {
                     className="w-full bg-gradient-secondary hover:shadow-gold transition-all duration-300"
                     size="lg"
                   >
-                    <Phone className="mr-2 h-5 w-5" />
+                    <FaWhatsapp className="mr-2 h-5 w-5" />
                     WhatsApp: (11) 9 5556-0910
                   </Button>
                 </div>

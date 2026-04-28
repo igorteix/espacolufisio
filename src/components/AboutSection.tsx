@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Heart, Star, Users, Award } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const AboutSection = () => {
   const openWhatsApp = () => {
@@ -127,7 +128,7 @@ export const AboutSection = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              <Phone className="mr-2 h-5 w-5" />
+              <FaWhatsapp className="mr-2 h-5 w-5" />
               Saiba Mais
             </Button>
           </div>

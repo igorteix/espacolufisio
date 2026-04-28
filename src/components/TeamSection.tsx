@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Award, Heart } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const TeamSection = () => {
   const openWhatsApp = () => {
@@ -110,7 +111,7 @@ export const TeamSection = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              <Phone className="mr-2 h-5 w-5" />
+              <FaWhatsapp className="mr-2 h-5 w-5" />
               Converse com Nossa Equipe
             </Button>
           </div>
