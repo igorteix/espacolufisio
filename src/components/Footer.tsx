@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Instagram, Facebook, MapPin, Clock, Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
   const openWhatsApp = () => {
@@ -84,14 +85,21 @@ export const Footer = () => {
               </div>
               
               <Button 
-                onClick={openWhatsApp}
-                variant="outline"
-                size="sm"
-                className="border-primary-foreground/30 hover:bg-primary-foreground hover:text-primary"
-              >
-                <Phone className="mr-2 h-4 w-4" />
-                (11) 9 5556-0910
-              </Button>
+  onClick={openWhatsApp}
+  variant="outline"
+  size="sm"
+  className="
+    flex items-center justify-center gap-2
+    border-primary-foreground/30 
+    hover:bg-primary-foreground hover:text-primary
+  "
+>
+  <div className="bg-[#25D366] p-1 rounded-full flex items-center justify-center">
+    <FaWhatsapp className="text-white h-4 w-4" />
+  </div>
+
+  (11) 9 5556-0910
+</Button>
             </div>
           </div>
         </div>

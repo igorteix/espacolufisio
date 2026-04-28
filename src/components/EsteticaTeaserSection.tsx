@@ -25,7 +25,7 @@ export default function EsteticaTeaserSection() {
           </p>
 
           <p className="mb-6 font-medium">
-            🎁 Condições especiais para quem entrar na lista antecipada.
+            🎁 Condições especiais para quem entrar na lista VIP.
           </p>
 
           {/* BOTÃO PADRÃO DO SITE */}
@@ -50,7 +50,7 @@ export default function EsteticaTeaserSection() {
         {/* IMAGEM */}
         <div className="relative h-[220px] md:h-[260px] rounded-2xl overflow-hidden">
           <img
-            src="https://cdn.dooca.store/1464/files/img-9994-1-1.jpg?auto=format&fit=crop&w=1200&q=80"
+            src="/images/CrioImage.jpeg"
             alt="Tratamento estético corporal moderno"
             className="w-full h-full object-cover object-center"
           />

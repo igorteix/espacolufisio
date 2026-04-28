@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Dumbbell, Users, Heart, Sparkles, Home } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const ServicesSection = () => {
   const openWhatsApp = () => {
@@ -170,14 +171,24 @@ export const ServicesSection = () => {
           <p className="text-primary text-lg font-semibold mb-6">
             Viva o melhor da saúde com excelência.
           </p>
+          <div className="flex justify-center">
           <Button 
             onClick={openWhatsApp}
             size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90"
+            className="
+              w-full sm:w-auto
+              flex items-center justify-center gap-2
+              bg-gradient-secondary text-white font-medium
+              hover:opacity-90 transition-all duration-300
+            "
           >
-            <Phone className="mr-2 h-5 w-5" />
+            <div className="bg-[#25D366] p-1.5 rounded-full flex items-center justify-center">
+              <FaWhatsapp className="text-white h-5 w-5" />
+            </div>
+
             Agende sua avaliação
           </Button>
+        </div>
         </div>
       </div>
     </section>

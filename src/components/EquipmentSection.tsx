@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Settings, Sparkles, CheckCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const EquipmentSection = () => {
   const openWhatsApp = () => {
@@ -117,13 +118,16 @@ export const EquipmentSection = () => {
               Venha sentir a diferença de treinar com quem cuida de cada detalhe para cuidar de você.
             </p>
             <Button 
-              onClick={openWhatsApp}
-              size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
-            >
-              <Phone className="mr-2 h-5 w-5" />
-              Conheça Nossos Equipamentos
-            </Button>
+  onClick={openWhatsApp}
+  size="lg"
+  className="bg-primary text-primary-foreground hover:bg-primary/90"
+>
+  <div className="bg-[#25D366] p-1.5 rounded-full flex items-center justify-center mr-2">
+    <FaWhatsapp className="text-white h-5 w-5" />
+  </div>
+
+  Conheça Nossos Equipamentos
+</Button>
           </div>
         </div>
       </div>

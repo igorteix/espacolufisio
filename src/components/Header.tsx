@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface HeaderProps {
   onNavigate: (section: string) => void;
@@ -57,12 +58,19 @@ export const Header = ({ onNavigate }: HeaderProps) => {
 
         <div className="flex items-center space-x-4">
           <Button 
-            onClick={openWhatsApp}
-            className="hidden md:flex items-center gap-2 bg-gradient-secondary hover:shadow-gold transition-all duration-300 shadow-sm"
-          >
-            <Phone className="h-4 w-4" />
-            WhatsApp
-          </Button>
+                      onClick={openWhatsApp}
+                      className="w-full flex items-center justify-center gap-3 
+                                  bg-gradient-secondary 
+                                  text-white font-medium
+                                  py-6 rounded-xl
+                                  hover:opacity-90 transition-all duration-300"
+                      >
+                      <div className="bg-[#25D366] p-2 rounded-full flex items-center justify-center">
+                          <FaWhatsapp className="text-white text-lg" />
+                      </div>
+          
+                      Whatsapp
+                      </Button>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
